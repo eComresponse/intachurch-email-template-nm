@@ -87,7 +87,7 @@ section {
     padding: 2em;
     font-family: "Inter";
     font-size: 0.8rem;
-    line-height: 1.25em;
+    line-height: 1.4em;
     font-weight: 400;
     letter-spacing: .5px;
 }
@@ -124,4 +124,60 @@ footer {
 .divider {
     width: 50%;
     border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+@media (min-width: 720px) {
+    body {
+        padding: 3em 8em;
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1.3em;
+    }
+
+    .brand {
+        width: 14em;
+        height: 2.1em;
+    }
+
+    section {
+        font-size: 1rem;
+        letter-spacing: .5px;
+        line-height: 1.2em;
+    }
+
+    .button {
+        width: 10em;
+        height: 3.5em;
+        border-radius: 1.5em;
+        font-size: 1.1rem;
+        margin-top: 1.5em;
+    }
+
+    .divider {
+        width: 18%;
+    }
+
+    .app {
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-bottom: 0;
+    }
+
+    #app-store {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .footer-logo {
+        width: 9em;
+        height: 1.4em;
+    }
+
+    .social img {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+    }
 }
