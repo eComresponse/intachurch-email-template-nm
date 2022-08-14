@@ -129,7 +129,7 @@ footer {
 @media (min-width: 720px) {
     body {
         padding: 3em 8em;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     h4 {
@@ -145,6 +145,7 @@ footer {
         font-size: 1rem;
         letter-spacing: .5px;
         line-height: 1.2em;
+        padding-bottom: .5em;
     }
 
     .button {
@@ -179,5 +180,9 @@ footer {
         width: 40px;
         height: 40px;
         margin-left: 20px;
+    }
+
+    main, section, footer {
+        padding: 4em;
     }
 }
